@@ -1,0 +1,6 @@
+---
+- hosts: proxmox-servers
+  user: root
+  serial: 1
+  roles:
+    - proxmox_8_1
